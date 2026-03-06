@@ -1,0 +1,168 @@
+fileVersion: 1
+id: 7fd5c18c-1e94-4fc4-a127-5ca65c8bbb80
+name: WALMART_SALES
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a13d76f4-6407-4a80-9195-9fff63383502
+          stepCounter: 7fd5c18c-1e94-4fc4-a127-5ca65c8bbb80
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: STORE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b238fbf2-476e-4238-9dc3-482f4420a8a7
+          stepCounter: 7fd5c18c-1e94-4fc4-a127-5ca65c8bbb80
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f3ed3740-4664-4aca-a28c-0441da6a509d
+          stepCounter: 7fd5c18c-1e94-4fc4-a127-5ca65c8bbb80
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: WEEKLY_SALES
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d673df4e-cc2c-4996-b806-ecf5cc2d19db
+          stepCounter: 7fd5c18c-1e94-4fc4-a127-5ca65c8bbb80
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: HOLIDAY_FLAG
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 145a8196-e494-4693-b7eb-9804b5181bf6
+          stepCounter: 7fd5c18c-1e94-4fc4-a127-5ca65c8bbb80
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: TEMPERATURE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 80a2fed0-dbc9-49ea-85f9-ab8bf7a60806
+          stepCounter: 7fd5c18c-1e94-4fc4-a127-5ca65c8bbb80
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: FUEL_PRICE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7f3214f0-b630-4704-b8fd-724e5d4023a0
+          stepCounter: 7fd5c18c-1e94-4fc4-a127-5ca65c8bbb80
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: CPI
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5a4d4ee5-a580-47a6-98d0-e19190b5ba96
+          stepCounter: 7fd5c18c-1e94-4fc4-a127-5ca65c8bbb80
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: UNEMPLOYMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: WALMART_SALES
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

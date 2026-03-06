@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "20"
+mappingDefinitions:
+  SRC:
+    database: WALMART_FORECAST_DB
+    schema: FORECAST_SCHEMA
+  TARGET:
+    database: RETAIL
+    schema: PUBLIC
+name: Walmart Forecast Environment
+type: Environment
