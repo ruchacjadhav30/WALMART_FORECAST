@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "9"
+includeSelector: "+{ location: TARGET name: ML_FCSTS_WALMART_SALES }"
+name: Job1
+type: Job
